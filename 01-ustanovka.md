@@ -1,6 +1,6 @@
 Мы запустили vmware и создали в нем ВМ со следующими параметрами:    
 
-![параметры вм](screenchots/Screenshot_nastroyki.png). 
+![параметры вм](screenchots/Screenshot_nastroyki.png)
 
 Подключили установочный образ Fedora 44 и сняли снимок состояния.    
 
