@@ -50,9 +50,6 @@ VARIANT="Workstation Edition"
 VARIANT_ID=workstation
 ```
 
-```
-
-```
 `uptime` - показывает снимок состояния системы в одной строке вывода.( время, сколько рабоатет система, сколько пользователей подключены к системе.)
 ```
 11:42:42 up 7 min,  1 user,  load average: 0,23, 0,48, 0,30
@@ -96,31 +93,6 @@ root          14  0.1  0.0      0     0 ?        I    11:35   0:00 [kworker/u512
 root          15  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/0]
 root          16  0.0  0.0      0     0 ?        I    11:35   0:00 [rcu_preempt]
 root          17  0.0  0.0      0     0 ?        S    11:35   0:00 [rcu_exp_par_gp_kthread_worker/1]
-```
-
-```
-NAME="Fedora Linux"
-VERSION="44 (Workstation Edition)"
-RELEASE_TYPE=stable
-ID=fedora
-VERSION_ID=44
-VERSION_CODENAME=""
-PRETTY_NAME="Fedora Linux 44 (Workstation Edition)"
-ANSI_COLOR="0;38;2;60;110;180"
-LOGO=fedora-logo-icon
-CPE_NAME="cpe:/o:fedoraproject:fedora:44"
-DEFAULT_HOSTNAME="fedora"
-HOME_URL="https://fedoraproject.org/"
-DOCUMENTATION_URL="https://docs.fedoraproject.org/en-US/fedora/f44/"
-SUPPORT_URL="https://ask.fedoraproject.org/"
-BUG_REPORT_URL="https://bugzilla.redhat.com/"
-REDHAT_BUGZILLA_PRODUCT="Fedora"
-REDHAT_BUGZILLA_PRODUCT_VERSION=44
-REDHAT_SUPPORT_PRODUCT="Fedora"
-REDHAT_SUPPORT_PRODUCT_VERSION=44
-SUPPORT_END=2027-05-19
-VARIANT="Workstation Edition"
-VARIANT_ID=workstation
 ```
 
 
