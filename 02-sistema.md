@@ -49,9 +49,11 @@ VARIANT_ID=workstation
 ```
 11:42:42 up 7 min,  1 user,  load average: 0,23, 0,48, 0,30
 ```
+
 ```
 user
 ```
+
 ```
 Файловая система Размер Использовано  Дост Использовано% Cмонтировано в
 /dev/nvme0n1p3      18G         3,7G   15G           21% /
@@ -66,6 +68,9 @@ tmpfs               16G          44K   16G            1% /tmp
 tmpfs              3,2G         136K  3,2G            1% /run/user/1000
 none               1,0M            0  1,0M            0% /run/credentials/systemd-networkd.service
 
+```
+
+```
 total        used        free      shared  buff/cache   available
 Mem:            31Gi       2,2Gi        27Gi       7,0Mi       2,1Gi        29Gi
 Swap:          8,0Gi          0B       8,0Gi
