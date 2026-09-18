@@ -1,5 +1,7 @@
 Linux fedora 6.19.10-300.fc44.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Mar 25 18:23:49 UTC 2026 x86_64 GNU/Linux
+`uname -a`
 
+```
 NAME="Fedora Linux"
 VERSION="44 (Workstation Edition)"
 RELEASE_TYPE=stable
@@ -24,9 +26,9 @@ VARIANT="Workstation Edition"
 VARIANT_ID=workstation
 
 11:42:42 up 7 min,  1 user,  load average: 0,23, 0,48, 0,30
+```
 
-user
-
+```
 Файловая система Размер Использовано  Дост Использовано% Cмонтировано в
 /dev/nvme0n1p3      18G         3,7G   15G           21% /
 devtmpfs            16G            0   16G            0% /dev
@@ -59,3 +61,4 @@ root          14  0.1  0.0      0     0 ?        I    11:35   0:00 [kworker/u512
 root          15  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/0]
 root          16  0.0  0.0      0     0 ?        I    11:35   0:00 [rcu_preempt]
 root          17  0.0  0.0      0     0 ?        S    11:35   0:00 [rcu_exp_par_gp_kthread_worker/1]
+```
