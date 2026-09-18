@@ -10,7 +10,7 @@
 В нашем случае при вводе данной команды был обнаружен интерфейс  <LOOPBACK,UP,LOWER_UP>, его состояние <UNKNOWN>?
 С IP адресом 192.168.248.255 и IPv4 адрес 127.0.0.1/8.
 
- 2: `Ip r` – Команда показывает таблицу маршрутизации ОС.
+### 2: `Ip r` – Команда показывает таблицу маршрутизации ОС.
 Здесь используются шлюзы, они нужны для передачи пакетов в сети которые не входят в вашу локальную подсеть ВМ.
 ```
 ens160: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
@@ -24,7 +24,7 @@ ens160: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group
 ```
 Шлюз: 192.168.248.255
 
- 3: Команда `cat /etc/resolv.conf` используется для проверки параметров доменных имён. 
+### 3: Команда `cat /etc/resolv.conf` используется для проверки параметров доменных имён. 
 ```
 default via 192.168.248.2 dev ens160 proto dhcp src 192.168.248.137 metric 20100 
 192.168.248.0/24 dev ens160 proto kernel scope link src 192.168.248.137 metric 100 
