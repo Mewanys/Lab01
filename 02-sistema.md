@@ -1,8 +1,3 @@
-`uname -a`
-```
-Linux fedora 6.19.10-300.fc44.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Mar 25 18:23:49 UTC 2026 x86_64 GNU/Linux
-```
-
 1) uname -a ( Команда для вывода базовой систеной информации.) В нашем случае оно показало Linux fedora 6.19.10-300.fc44.x86_64,
 где 6.19.10 версия ядра Linux. 
 -300 это (build) внутренний номер пакета в репозитории Fedora.
@@ -21,6 +16,14 @@ user - обычная учетная запись пользователя с н
 NetworkManager - главная служба для управления сетью. Она автоматически обнаруживает сетевые подкелючения. Следит за состоянием интерфейсов и может переключать на более быстрое соединение.
 Udev - диспетчер устройств. Отслеживает подключаемые устройства к пк создавая папку /dev/sdX и назначает ему права.
 Systemd-resolved. Эта служба отвечает за разрешение DNS-запросов «на лету»: она следит за тем, чтобы файл /etc/resolv.conf содержал актуальные адреса серверов.
+```
+Linux fedora 6.19.10-300.fc44.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Mar 25 18:23:49 UTC 2026 x86_64 GNU/Linux
+```
+whoami - выводит имя текущего пользователя от имени которого выполняется команда.
+```
+user
+```
+cat - позволяет просматривать файлы и объединять их содержимое, создавать новые файлы.
 ```
 NAME="Fedora Linux"
 VERSION="44 (Workstation Edition)"
@@ -47,13 +50,14 @@ VARIANT_ID=workstation
 ```
 
 ```
+
+```
+uptime - показывает снимок состояния системы в одной строке вывода.( время, сколько рабоатет система, сколько пользователей подключены к системе.)
+```
 11:42:42 up 7 min,  1 user,  load average: 0,23, 0,48, 0,30
-```
 
 ```
-user
-```
-
+df -h - показывает сколько места занято и свободно на дисках.
 ```
 Файловая система Размер Использовано  Дост Использовано% Cмонтировано в
 /dev/nvme0n1p3      18G         3,7G   15G           21% /
@@ -70,6 +74,7 @@ none               1,0M            0  1,0M            0% /run/credentials/system
 
 ```
 
+ps aux | head -15 ( показывает 15 строк из (снимка) всех запущенных в системе процессов.)
 ```
 total        used        free      shared  buff/cache   available
 Mem:            31Gi       2,2Gi        27Gi       7,0Mi       2,1Gi        29Gi
@@ -91,3 +96,31 @@ root          15  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/0]
 root          16  0.0  0.0      0     0 ?        I    11:35   0:00 [rcu_preempt]
 root          17  0.0  0.0      0     0 ?        S    11:35   0:00 [rcu_exp_par_gp_kthread_worker/1]
 ```
+
+```
+NAME="Fedora Linux"
+VERSION="44 (Workstation Edition)"
+RELEASE_TYPE=stable
+ID=fedora
+VERSION_ID=44
+VERSION_CODENAME=""
+PRETTY_NAME="Fedora Linux 44 (Workstation Edition)"
+ANSI_COLOR="0;38;2;60;110;180"
+LOGO=fedora-logo-icon
+CPE_NAME="cpe:/o:fedoraproject:fedora:44"
+DEFAULT_HOSTNAME="fedora"
+HOME_URL="https://fedoraproject.org/"
+DOCUMENTATION_URL="https://docs.fedoraproject.org/en-US/fedora/f44/"
+SUPPORT_URL="https://ask.fedoraproject.org/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+REDHAT_BUGZILLA_PRODUCT="Fedora"
+REDHAT_BUGZILLA_PRODUCT_VERSION=44
+REDHAT_SUPPORT_PRODUCT="Fedora"
+REDHAT_SUPPORT_PRODUCT_VERSION=44
+SUPPORT_END=2027-05-19
+VARIANT="Workstation Edition"
+VARIANT_ID=workstation
+```
+
+
+
