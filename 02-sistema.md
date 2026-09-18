@@ -1,6 +1,5 @@
 Linux fedora 6.19.10-300.fc44.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Mar 25 18:23:49 UTC 2026 x86_64 GNU/Linux
 `uname -a`
-
 ```
 NAME="Fedora Linux"
 VERSION="44 (Workstation Edition)"
