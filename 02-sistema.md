@@ -1,4 +1,6 @@
+```
 Linux fedora 6.19.10-300.fc44.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Mar 25 18:23:49 UTC 2026 x86_64 GNU/Linux
+```
 `uname -a`
 1) uname -a ( Команда для вывода базовой систеной информации.) В нашем случае оно показало Linux fedora 6.19.10-300.fc44.x86_64,
 где 6.19.10 версия ядра Linux. 
