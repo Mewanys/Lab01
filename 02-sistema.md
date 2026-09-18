@@ -44,7 +44,9 @@ REDHAT_SUPPORT_PRODUCT_VERSION=44
 SUPPORT_END=2027-05-19
 VARIANT="Workstation Edition"
 VARIANT_ID=workstation
+```
 
+```
 11:42:42 up 7 min,  1 user,  load average: 0,23, 0,48, 0,30
 ```
 
